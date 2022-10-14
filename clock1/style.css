@@ -1,0 +1,37 @@
+div{
+    width: 1280px;
+    height: 720px;
+    background: url(universe-time-wp.png);
+    background-color: rgba(255, 255, 255, 0.438);
+    background-size: cover;
+    filter: brightness(20%);
+    filter: blur(3px);
+}
+
+article{
+    position: absolute;
+    border-radius: 50%;
+    width: fit-content;
+    top: 155px;
+    left:402px;
+}
+
+
+#clock{
+    width:440px;
+    backdrop-filter: blur(7.5px);
+    background: rgba(255, 255, 255, 25%);
+    border-radius: 250px;
+    filter: brightness(90%);
+}
+#btc1, #btc3, #centre-piece{
+    position: absolute;
+    border-radius: 70%;
+}
+#centre-piece{ width:60px; top: 345px; left: 595px; filter: brightness(100%); filter: invert(90%);}
+#btc1{ width:400px; top: 120px; left: 572px; transform: rotate(100deg); filter: invert(100%);}
+#btc2{ position:absolute; width:220px; top: 10px; left: 212px; }
+#btc3{ width:200px; top: 490px; left: 210px;  transform: rotate(35deg);}
+#btc1, #btc2, #btc3{
+    filter: blur(0px);
+}
